@@ -1,0 +1,14 @@
+/* src/styles/postEditor.css */
+.editor {
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+pre {
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}

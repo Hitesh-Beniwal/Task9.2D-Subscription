@@ -1,0 +1,48 @@
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    border: 1px solid #0f0f0f;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    max-width: 300px; 
+    margin: auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0e0e0e;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px; 
+    background-color: #292a2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+}
+
+button:hover {
+    background-color: #111;
+}
+
+.error {
+    color: red;
+}
